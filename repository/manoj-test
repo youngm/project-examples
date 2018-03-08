@@ -9,7 +9,7 @@ localRepository('gen') {
   blackedOut false
 
   packageType 'generic'
-
+  packageType 'generic2'
 
 
 // Custom properties
