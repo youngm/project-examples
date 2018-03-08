@@ -1,0 +1,44 @@
+localRepository('gen') {
+  description ''
+  notes ''
+  includesPattern '**/*'
+  excludesPattern ''
+  repoLayoutRef 'simple-default'
+  propertySets (['artifactory'])
+  archiveBrowsingEnabled false
+  blackedOut false
+
+  packageType 'generic'
+
+
+
+// Custom properties
+// enableComposerSupport 'false'
+// enableNuGetSupport 'false'
+// enableGemsSupport 'false'
+// enableNpmSupport 'false'
+// enableBowerSupport 'false'
+// enableCocoaPodsSupport 'false'
+// enableConanSupport 'false'
+// enableDebianSupport 'false'
+// debianTrivialLayout 'false'
+// enablePypiSupport 'false'
+// enablePuppetSupport 'false'
+// enableDockerSupport 'false'
+// dockerApiVersion 'V2'
+// forceNugetAuthentication 'false'
+// enableVagrantSupport 'false'
+// enableGitLfsSupport 'false'
+// enableDistRepoSupport 'false'
+// checksumPolicyType 'client-checksums'
+// handleReleases 'true'
+// handleSnapshots 'true'
+// maxUniqueSnapshots '0'
+// maxUniqueTags '0'
+// snapshotVersionBehavior 'unique'
+// suppressPomConsistencyChecks 'true'
+// calculateYumMetadata 'false'
+// enableFileListsIndexing 'false'
+// yumRootDepth '0'
+// enabledChefSupport 'false'
+}
