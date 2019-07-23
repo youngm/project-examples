@@ -7,4 +7,4 @@ resolver:
 deployer:
   snapshotRepo: libs-snapshot-local
   releaseRepo: libs-release-local
-  serverID: Default-Server
+  serverID: art
