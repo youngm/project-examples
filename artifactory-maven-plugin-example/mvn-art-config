@@ -3,7 +3,7 @@ type: maven
 resolver:
   snapshotRepo: libs-snapshot
   releaseRepo: libs-release
-  serverID: Default-Server
+  serverID: art
 deployer:
   snapshotRepo: libs-snapshot-local
   releaseRepo: libs-release-local
