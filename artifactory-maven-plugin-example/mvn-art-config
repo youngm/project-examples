@@ -3,8 +3,8 @@ type: maven
 resolver:
   snapshotRepo: libs-snapshot
   releaseRepo: libs-release
-  serverID: art
+  serverID: emxartifactory 
 deployer:
   snapshotRepo: libs-snapshot-local
   releaseRepo: libs-release-local
-  serverID: art
+  serverID: emxartifactory 
